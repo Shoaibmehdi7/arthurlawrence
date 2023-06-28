@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="151" viewBox="0 0 162 151">
+  <g id="circle" transform="translate(-5509 -1535)">
+    <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(5529 1554)" fill="#fff" stroke="#121f3e" stroke-width="4" opacity="0.25">
+      <ellipse cx="57" cy="56.5" rx="57" ry="56.5" stroke="none"/>
+      <ellipse cx="57" cy="56.5" rx="55" ry="54.5" fill="none"/>
+    </g>
+    <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(5524 1549)" fill="none" stroke="#121f3e" stroke-width="1" opacity="0.25">
+      <ellipse cx="62" cy="61.5" rx="62" ry="61.5" stroke="none"/>
+      <ellipse cx="62" cy="61.5" rx="61.5" ry="61" fill="none"/>
+    </g>
+    <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(5519 1544)" fill="none" stroke="#121f3e" stroke-width="1" stroke-dasharray="2 2" opacity="0.25">
+      <ellipse cx="67" cy="66.5" rx="67" ry="66.5" stroke="none"/>
+      <ellipse cx="67" cy="66.5" rx="66.5" ry="66" fill="none"/>
+    </g>
+    <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(5510 1535)" fill="none" stroke="#121f3e" stroke-width="1" opacity="0.25">
+      <ellipse cx="76" cy="75.5" rx="76" ry="75.5" stroke="none"/>
+      <ellipse cx="76" cy="75.5" rx="75.5" ry="75" fill="none"/>
+    </g>
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="3" cy="3" r="3" transform="translate(5665 1612)" fill="#222"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="3.5" cy="3.5" r="3.5" transform="translate(5509 1622)" fill="#222"/>
+    <circle id="Ellipse_18" data-name="Ellipse 18" cx="2" cy="2" r="2" transform="translate(5629 1539)" fill="#222"/>
+  </g>
+</svg>

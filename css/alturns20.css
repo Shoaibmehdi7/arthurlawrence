@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+.main-banner {
+    padding: 140px 0 50px;
+    text-align: center;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.main-banner h1 {
+    font-family: 'Allura', cursive !important;
+    font-size: 75px;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1;
+    color:#fff;
+}
+h2 span {
+    font-weight: 400;
+}
+body {
+    background-color: rgba(108,13,7,1);
+    background-image: url(../images/Red%20b_g.jpg);
+    background-size: cover;
+    background-position: top;
+}
+body,html{overflow-x:hidden;}
+footer {
+    background-image: url(../images/footer-Background.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: bottom left;
+}
+
+#main-nav {
+    background: transparent;
+}
+
+#main-nav ul.main li a {
+    color: #fff;
+}
+
+#main-nav .logo {
+    filter: brightness(0) invert(1);
+}
+
+.al-button-top-empty {
+    background: transparent !important;
+    border-color: #fff;
+    color: #fff !important;
+}
+.main-banner img {
+    max-width: 100%;
+}
+
+.main-banner .center {
+    margin-top: 50px;
+}
+.main-banner p {
+    color: #fff;
+    font-family: 'Quicksand';
+    margin-top: 20px;
+}
+.scroll-down {
+    margin-bottom: -30px;
+    display: block;
+}
+.video-section h3,.at-a-glance h3,  .purpose h3{
+    font-size: 44px;
+    text-align: center;
+    font-family: 'Allura' !important;
+    color: #E4D08F;
+}
+
+.video-section h2, .at-a-glance h2, .purpose h2{
+     text-align: center;
+    font-size: 30px !important;
+    line-height: 1.3 !important;
+    font-family: 'Allura' !important;
+    color: #fff;
+}
+.life-at-al h2, .instagram-section h2
+{
+    text-align: center;
+   font-family: 'Allura' !important;
+    color: #fff; 
+}
+.video-section p {
+    text-align: center;
+    color: #fff;
+    max-width: 927px;
+    margin: 0 auto;
+}
+footer .main-footer {
+    background: transparent !important;
+}
+
+footer .footer-bottom {
+    background: transparent !important;
+    border-top: 1px solid #ffffff24;
+}
+iframe{
+    max-width:100%;
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 25px;
+  }
+}@keyframes DownUp {
+  0%, 100% {
+    top: 0;
+  }
+  50% {
+    top: 25px;
+  }
+}
+#play-pause, #play-pause-2
+{
+    display:none;
+}
+
+.main-banner .row img:not(.center) {
+    animation: MoveUpDown 5s linear infinite;
+    position: relative;
+}
+header.sticky #main-nav {
+    background: linear-gradient(162deg, rgba(23,2,0,1) 0%, rgba(108,13,7,1) 78%, rgba(111,14,8,1) 100%);
+}
+.main-banner .row img.center {
+    animation: DownUp 5s linear infinite;
+    position: relative;
+}
+.video-section iframe {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -90px;
+}
+
+.video-wrapper {
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.item {
+    border: 1px solid rgb(255 255 255 / 25%);
+    display: flex;
+    align-items: center;
+    height: 113px;
+    padding: 0 10px;
+    border-radius: 9px;
+    transition: .3s all;
+}
+.item h3 {
+    text-align: left;
+    font-family: 'Quicksand' !important;
+    color: #fff;
+    font-weight: bold;
+}
+.item p {
+    font-family: 'Quicksand';
+    color: #fff;
+    margin: 0;
+}
+.content {
+    flex: 0 0 84%;
+}
+.item .svg {
+    position: absolute;
+    right: 11px;
+    bottom: 15px;
+}
+.item:hover {
+    background: transparent linear-gradient(180deg, #E4D08F 0%, #C5A36A 100%) 0% 0% no-repeat padding-box;
+}
+.item:hover * {
+    color: #660600;
+}
+.item:hover path, .item:hover circle{
+    fill: #660600;
+}
+.item:hover #Path_1421, .item:hover #Path_1423, .item:hover #Path_1417, .item:hover #Path_1419
+{
+    fill:none;
+}
+.box-carousel .owl-nav {
+    position: absolute;
+    top: -39px;
+    right: 0;
+}
+
+.box-carousel .owl-nav button {
+    width: 22px;
+    height: 22px;
+    font-size: 0 !important;
+    background-image: url(../images/arrow-right-slide.svg) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    margin: 0 5px;
+}
+
+.box-carousel .owl-prev {
+    transform: rotate(180deg);
+}
+.life-at-al {
+    padding: 50px 0;
+}
+.life-at-al p {
+    font-family: 'Quicksand';
+    color: #fff;
+}
+.instagram-section img {
+  max-width: 100%;
+  height:500px;
+  object-fit: cover;
+}
+
+
+.instagram-section .insta-item:before {
+    background:
+  linear-gradient(to right, #fff 5px, transparent 5px) 0 0,
+  linear-gradient(to right, #fff 5px, transparent 5px) 0 100%,
+  linear-gradient(to left, #fff 5px, transparent 5px) 100% 0,
+  linear-gradient(to left, #fff 5px, transparent 5px) 100% 100%,
+  linear-gradient(to bottom, #fff 5px, transparent 5px) 0 0,
+  linear-gradient(to bottom, #fff 5px, transparent 5px) 100% 0,
+  linear-gradient(to top, #fff 5px, transparent 5px) 0 100%,
+  linear-gradient(to top, #fff 5px, transparent 5px) 100% 100%;
+  width: calc(100%);
+  height: 100%;
+  background-repeat: no-repeat;
+  transition:.3s all;
+  background-size: 20px 20px;
+  opacity:0;
+  position: absolute;
+  content: "";
+  
+}
+
+.instagram-section .insta-item {
+  position: relative;
+  transition: .3s all;
+}
+.insta-carousel .owl-stage-outer {
+    overflow: visible;
+}
+.instagram-section .insta-item:hover:before {
+  opacity: 1;
+}
+.menu-line {
+    stroke: #fff;
+}
+.instagram-section .insta-item:hover {
+  transform: scale(1.09);
+  positon:relative;
+  z-index:9;
+}
+.purpose-row.second-row {
+    justify-content: center;
+    margin-top:70px;
+}
+.arrow-btn img {
+    width: 40px;
+    height:auto;
+}
+
+.arrow-btn {
+    display: block;
+    color: #E4D08F;
+    text-align: right;
+    margin-top: 25px;
+    max-width: 300px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 50px;
+}
+.arrow-btn:hover
+{
+    color:#fff;
+}
+.purpose p {
+    max-width: 700px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+.purpose-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-purpose {
+    border-right: 1px solid #fff;
+    padding: 30px 0 50px;
+    position: relative;
+    width: 25%;
+}
+.item-purpose:nth-child(even) {
+    padding-top: 60px;
+    
+}
+.item-purpose h4 {
+    color: #Fff;
+    font-family: 'Raleway';
+    position: absolute;
+    bottom: -32px;
+    left: 30px;
+}
+.item-purpose:first-child {
+    border-left: 1px solid #fff;
+}
+.item-purpose h4:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #E4D08F;
+    position: absolute;
+    border-radius: 50%;
+    left: -15px;
+    top: 8px;
+}
+.purpose {
+    padding: 50px 0;
+}
+.item-purpose img
+{
+    max-width:100%;
+}
+
+@media screen and (max-width:767px)
+{
+    iframe {
+    max-width: 100%;
+    height: 386px;
+}
+header.sticky {
+    position: relative !important;
+}
+
+.sticky nav#main-nav {
+    position: relative;
+}
+.item p {
+    font-size: 16px;
+}
+.main-banner h1 {
+    font-size: 44px;
+}
+
+.main-banner .row div {
+    padding: 0 2px;
+}
+
+.item-purpose {
+    width: 50%;
+}
+
+.item-purpose h4 {
+    font-size: 15px;
+    bottom: 0;
+    color: #fff !important;
+}
+
+.item-purpose h4:before {
+    width: 5px;
+    height: 5px;
+    top: 6px;
+}
+
+.video-section h3, .at-a-glance h3, .purpose h3 {
+    font-size: 26px;
+}
+}

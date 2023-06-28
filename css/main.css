@@ -1,0 +1,19 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-caption {
+    transition: opacity .50s ease-in-out;
+    -moz-transition: opacity .50s ease-in-out;
+    -webkit-transition: opacity .50s ease-in-out;
+}

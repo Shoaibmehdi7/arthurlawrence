@@ -1,0 +1,11 @@
+[13-Feb-2023 14:48:07 UTC] PHP Notice:  Undefined index: job_code in /home/lawrenceitstaff/public_html/jobs/jobs/details/index.php on line 18
+[14-Feb-2023 15:51:10 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[14-Feb-2023 15:51:10 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[14-Feb-2023 15:52:13 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[14-Feb-2023 15:52:13 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[14-Feb-2023 16:04:59 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[14-Feb-2023 16:04:59 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[14-Feb-2023 16:10:12 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[14-Feb-2023 16:10:12 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[14-Feb-2023 16:19:36 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[14-Feb-2023 16:19:36 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22

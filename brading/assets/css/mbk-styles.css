@@ -1,0 +1,129 @@
+body {
+  overflow-x: hidden;
+}
+
+.banner-arth {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: #242424;
+  background-image: url(/assets/images/new-assets/banner-bg.png);
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-position: center center;
+  background-size: 30%;
+}
+
+.banner-arth h1 {
+  color: #fff;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+.banner-arth .h4 {
+  font-size: 2.5em;
+  color: #fff;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  margin: 0px auto;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.banner-arth .icon-down {
+  width: 17px;
+  height: 30px;
+  background: url("/assets/images/new-assets/arrow-down.png") no-repeat;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  margin: 0px auto;
+  text-align: center;
+  left: 50%;
+}
+
+.intro-perspective {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.intro-perspective h2 {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #313131;
+}
+
+.intro-perspective h2 span {
+  display: block;
+}
+
+.intro-perspective h2 span:nth-child(1) {
+  font-weight: 100;
+}
+
+.intro-perspective h2 span:nth-child(2) {
+  font-weight: 700;
+}
+
+.intro-perspective p {
+  text-align: center;
+  color: #797979;
+}
+
+.video-player {
+  position: relative;
+  overflow-x: hidden;
+  cursor: url("/assets/images/new-assets/play-cursor.png"), auto;
+}
+
+.transformation {
+  height: 100vh;
+  width: 100vw;
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.transformation h2 {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  color: #313131;
+}
+
+.transformation h2 span {
+  display: block;
+}
+
+.transformation h2 span:nth-child(1) {
+  font-weight: 100;
+}
+
+.transformation h2 span:nth-child(2) {
+  font-weight: 700;
+}
+
+.transformation p {
+  color: #797979;
+}
+/*# sourceMappingURL=mbk-styles.css.map */

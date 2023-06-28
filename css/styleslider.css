@@ -1,0 +1,114 @@
+
+/* * {
+    box-sizing: border-box;
+} */
+
+
+/* Defining each section background and styles
+    * --------------------------------------- */
+    #section1{
+        background-image: url(../img/bg1.jpg);
+        padding: 6% 0 0 0;
+    }
+    #section1 h1{
+        color: #000;
+    }
+    #section2{
+        background-image: url(../img/bg2.jpg);
+        padding: 6% 0 0 0;
+    }
+
+    #section2 h1{
+        color: #000;
+    }
+    #section3{
+        background-image: url(../img/bg3.jpg);
+        padding: 6% 0 0 0;
+    }
+    #section3 h1{
+        color: #000;
+    }
+
+
+.slide {
+    padding: 0 60px;
+    color: #00174f;
+}
+
+.slide:nth-child(1) {
+    background: #ffd200;
+}
+
+.slide:nth-child(2) {
+    background: #ff0000;
+}
+
+.slide:nth-child(3) {
+    background: #ccc;
+}
+
+.slide:nth-child(4) {
+    background: #fff;
+}
+
+.fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent #00174f;
+}
+
+.fp-controlArrow.fp-prev {
+    border-color: transparent #00174f transparent transparent;
+}
+
+.header {
+    width: 100%;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background: #00174f;
+    box-shadow: rgba(0, 0, 0, 1) 0 0 7px;
+}
+
+.main-nav {}
+
+.main-nav ul {
+    margin: 0 -15px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: -4px;
+    padding: 0 15px;
+}
+
+.main-nav a {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .7s ease-in-out;
+}
+
+.main-nav .active div {
+    color: yellow;
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid black;
+    transition: all .7s ease-in-out;
+    
+}
+
+.main-nav div {
+    color: yellow;
+    width: 112px;
+    height: 47px;
+    border-bottom: 1px solid white;
+    
+}
+
+.main-nav .active a {
+    color: #ffd200;
+}

@@ -1,0 +1,3 @@
+[22-Feb-2023 15:39:31 UTC] PHP Notice:  Undefined variable: title in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 22
+[22-Feb-2023 15:39:31 UTC] PHP Notice:  Undefined variable: desc in /home/lawrenceitstaff/public_html/jobs/includes/header.php on line 23
+[22-Feb-2023 15:39:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/lawrenceitstaff/public_html/jobs/jobs/new/index.php on line 9

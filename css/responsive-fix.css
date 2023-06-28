@@ -1,0 +1,123 @@
+.myredline .greybox{
+    padding:100px;
+}
+.mypaddingbox{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.div-red{
+    margin-top: 3em;
+    padding-bottom: 1.1em;
+}
+.nomargin {
+    margin: 0px !important;
+}
+.div-btn{
+    margin-top: 3em;
+}
+
+.contactUs-heading{
+    position: relative; color: white; font-weight: bold;
+    padding-top: 6em;
+    padding-bottom: 5em;
+}
+.contactus h4{
+    padding-top: 2em;
+}
+
+.mycolp {
+    margin-top: 1em !important;
+}
+
+.join-now .slide-in{
+    background-size: cover !important;
+}
+@media screen and (max-width: 500px)
+{
+    .redhorizontal4{
+        display: none;
+    }
+    .redhorizontal4 :hover .redhorizontal4{
+        opacity: 0;
+    }
+    .myredline .greybox{
+        padding: 0px;
+    }
+    .greybox h2{
+        font-size: 1.12em !important;margin-left: 1em;
+    }
+    .greybox p{
+        font-size: 0.6em !important;margin-left: 2em;
+    }
+    .greybox h5{
+        font-size: 1.12em !important;margin-left: 1em;
+    }
+    .div-red h4{
+        font-size: 1em !important;
+    }
+    .div-red p{
+        font-size: 0.5em !important;
+    }
+    .div-btn{
+        width: 66% !important; padding-left: 0px!important;  padding-right: 0px!important;
+    }
+    .mydivred2 .content_box{
+        padding-left: 2em !important;
+    }
+    .image-box{
+        width: auto !important;
+    }
+    .join-now{
+        padding-top: 0px !important;
+    }
+    .join-now .join-left{
+        padding-top: 0px !important;
+    }
+    .video-menu{
+        display: none !important;
+    }
+    .nf-form-cont .first{
+        width: 100% !important;
+    }
+    #nf-field-56-container{
+        width: 100%;
+    }
+    .p30{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .links{
+        display: none;
+    }
+
+    .white-small{
+        color: white!important;
+    }
+    .redbox .div-btn {
+        margin-top: 0px;
+        padding-bottom: 2em;
+        margin-left: 3%;
+    }
+    .img-fluid{
+        width: 100%;
+    }
+    .px-0 .full-txt{
+        padding: 1em 15px !important;
+    }
+    .p30{
+        padding:0px;
+    }
+
+    .mycolp p{
+        font-size: 1.2em !important;
+        line-height: .8 !important;;
+    }
+
+    .greybox{
+        margin-top: 0px !important;
+        margin-left : 0px !important;
+        padding-left: 40px;
+    }
+
+}

@@ -1,0 +1,45 @@
+
+RewriteEngine on
+
+RewriteOptions inherit
+
+AddType text/html .html
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^/?$ "https\:\/\/www\.arthurlawrence\.net\/" [R=301,L]
+ErrorDocument 404 /404.php
+
+#remove php file extension-e.g. https://example.com/file.php will become https://example.com/file 
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^oracle\-netsuite\.php$ "https\:\/\/arthurlawrence\.net\/netsuite\-implementation" [R=301,L]
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^blogs$ "https\:\/\/arthurlawrence\.net\/blog" [R=301,L]
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^middleeast$ "https\:\/\/www\.arthurlawrence\.net\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^enterprise\-application\.php$ "https\:\/\/www\.arthurlawrence\.net\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^services\.php$ "https\:\/\/www\.arthurlawrence\.net\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^about\.php$ "https\:\/\/www\.arthurlawrence\.net\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^finance\-performance\.php$ "https\:\/\/www\.arthurlawrence\.net\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^alturns20\.php$ "https\:\/\/arthurlawrence\.net\/ALturns20\.php" [R=301,L]
+RewriteCond %{HTTP_HOST} ^arthurlawrence\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.arthurlawrence\.net$
+RewriteRule ^alturns20$ "https\:\/\/arthurlawrence\.net\/ALturns20" [R=301,L]

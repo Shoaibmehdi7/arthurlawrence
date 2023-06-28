@@ -1,0 +1,396 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+/* header */
+.navbar-brand img {
+   max-width: 350px;
+    padding-top: 50px;
+}
+.content {
+    margin: 25px 0px;
+}
+
+.content h1 {
+    font-size: 27px;
+    color: white;
+    margin: 25px 0px;
+    font-family: unset;
+    padding-top: 150px;
+}
+
+.content h1 span {
+    font-weight: bolder;
+}
+
+.content p {
+    font-size: 15px;
+}
+
+.content>.col-md-6,
+.col-md-3 {
+    padding-left: 0px !important;
+}
+
+.red_div {
+    color: white;
+}
+
+.p_content {
+    color: black;
+    margin-top: 35px;
+}
+
+.img_height {
+    height: 331px !important;
+}
+
+.blog_color {
+    color: white;
+}
+
+.content_box {
+    padding-left: 25px;
+}
+
+.content button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 10px;
+    margin: 42px 0px;
+    border: 2px solid;
+}
+
+.subscribe {
+    background-color: #2D2B2B;
+    color: white;
+    padding: 50px 0px;
+}
+
+.subscribe i {
+    font-size: 35px;
+    color: white;
+    float: left;
+    padding-right: 20px;
+}
+
+.subscribe h4 {
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.subscribe input {
+    background: transparent;
+    padding: 9px 100px 9px 20px;
+    border-radius: 50px;
+    border: 1px solid;
+}
+
+.subscribe button {
+    background: transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    border: 1px solid;
+}
+
+.right {
+    text-align: right;
+}
+
+.news {
+    background: #c3c3c3;
+    padding: 25px;
+}
+
+.news h4 {
+    color: #ff0000;
+}
+
+.news h1 {
+    font-weight: bolder;
+    color: black;
+    margin-top: 0px;
+}
+
+.news h5 {
+    color: black;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.right-side h3 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.right-side h6 {
+    margin-top: 10px;
+    color: black;
+}
+
+.right-side h6 a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.right-side button {
+    margin-top: 40px;
+    background: transparent;
+    padding: 8px 38px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.join-now {
+    background: white;
+    /*padding: 25px;*/
+    color: gray;
+}
+
+.join-now h1 {
+    font-weight: bolder;
+}
+
+.join-now h1 span {
+    font-size: 50px;
+}
+
+.join-now p {
+    margin: 25px 0px;
+    color: gray;
+}
+
+.join-now button {
+    margin-top: 40px;
+    background: transparent;
+    padding: 8px 27px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.join-now .join-left {
+    padding-left: 45px;
+}
+
+.join-now>.col-md-6,
+.col-md-12 {
+    padding-right: 0px !important;
+}
+
+.footer {
+    background-color: #2D2B2B;
+    /* padding: 40px 20px; */
+    color: white;
+}
+
+.footer i {
+    font-size: 22px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.fa-linkedin-in {
+    background-color: #0077B5;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-facebook-f {
+    background-color: #3B5998;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    background-color: #00ACEE;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background-color: #C4302B;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footer ul li {
+    list-style: none;
+    font-weight: 100;
+    margin-bottom: 8px;
+    font-size: 11px;
+    color: gray;
+}
+
+.footer .links h5 {
+    margin-left: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.footer .box {
+    background-color: lightgray;
+    color: white;
+    padding: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.plus-sign img {
+    max-width: 100px;
+}
+
+/* powersection */
+.pow-bg {
+    padding: 120px;
+}
+/* content img section */
+.content-side {
+    padding: 60px 0px;
+}
+
+.content-img-txt p {
+    margin-bottom: 10px;
+}
+.content-img-txt  .btn  {
+    padding: 8px 0px;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 11px;
+}
+.introduction {
+    padding: 60px 0px;
+    background-color: #F8F8F8;
+}
+
+/* award section */
+.award {
+    padding: 60px 0px;
+}
+
+
+/* join now section */
+.join-now,.help  {
+    padding: 60px 0px;
+}
+
+
+/* footer section */
+
+
+
+
+
+
+
+
+
+
+/* media query */
+@media (max-width: 767px) {
+    /* navbar */
+    .navbar-brand img {
+        max-width: 177px;
+        padding-top: 8px;
+    }
+        /* introduction section */
+        .introduction {
+            padding-top: 40px !important;
+            padding-bottom: 0;
+        }
+    
+    .wpb_wrapper h2 {
+    font-size: 36px !important;
+    line-height: 0px !important;
+    }
+    .wpb_wrapper h5 {
+     margin-top: -22px;
+    }
+    .heading-txt h2 {
+        font-size: 26px;
+    }
+    .content-img-txt p {
+        font-size: 12px !important;
+    }
+    .content-img .img-1 {
+        margin-top: 47px;
+    }
+
+    .image-box  {
+        margin-top: 128px !important;
+    }
+
+    .content-section {
+        padding: 30px 0px !important;
+    }
+    .join-now .join-left {
+        padding-left: 0 !important; 
+        /* /* padding-top: 150px; */
+    }
+    .help {
+        padding: 30px 0px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .navbar-brand img {
+        max-width: 350px;
+        padding-top: 0px;
+    }
+    .introduction {
+        padding: 30px 0px;
+    }
+    .pow-bg {
+        padding: 60px 20px;
+      }
+      .wpb_wrapper h2 {
+          font-size: 34px !important;
+          line-height: 0px !important;
+      }
+      .wpb_wrapper h3 {
+          font-size: 16px !important;
+      }
+}
+
+@media(min-width: 992px) and (max-width: 1200px) {
+    .help {
+        padding: 30px 0px;
+    }
+
+    
+    .pow-bg {
+        padding: 30px;
+      }
+      .wpb_wrapper h2 {
+          font-size: 34px !important;
+          line-height: 0px !important;
+      }
+      .wpb_wrapper h3 {
+          font-size: 26px !important;
+      }
+}
+@media(min-width: 320px) and (max-width: 576px) {
+    .introduction {
+        padding: 30px 19px;
+    }
+    .content-img {
+        margin-top: 20px;
+    }
+
+    .pow-bg {
+      padding: 60px 20px;
+    }
+    .wpb_wrapper h2 {
+        font-size: 18px !important;
+        line-height: 0px !important;
+    }
+    .wpb_wrapper h3 {
+        font-size: 16px !important;
+    }
+}

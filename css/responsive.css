@@ -1,0 +1,113 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  #banner .bnr-cont h1 {
+    font-size: 40px;
+}
+
+.navbar-dark .navbar-brand {
+  width: 60%;
+}
+  
+.customer-img .img-fluid {
+  max-width: 30%;
+}
+
+}
+ 
+/* Small devices (landscape phones upto 767px) */
+@media (max-width: 767px) {
+  #subscribe {
+    display: none;
+}
+
+#insights .full-img {
+  text-align: center;
+}
+
+#insights .full-img .img-txt {
+  left: 25%;
+  text-align: left;
+}
+
+#footer li a {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+
+.top-btn {
+  font-size: 1rem;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) { 
+  .navbar-collapse span i {
+    padding-left: 15px;
+  }
+  
+ }
+
+/* Large devices (desktops and laptop) */
+@media (max-width: 1199px) {
+  .h1 {
+    font-size: 40px;
+  }
+  
+  .h2 {
+    font-size: 30px;
+  }
+  
+  .h3 {
+    font-size: 20px;
+  }
+  
+  .p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #contact-form .txt {
+    margin-bottom: 30px;
+  }
+
+  .join-txt {
+    padding: 20px;
+  }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .insights-bottom .container {
+    max-width: 80%;
+  }
+
+  #footer .container {
+    max-width: 80%;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 16px;
+  }
+
+  #intro .intro-txt .mb-4 {
+    margin-bottom: 2.5rem!important;
+  }
+
+  #intro .intro-txt {
+    margin-top: 35px;
+  }
+
+ 
+
+
+ }

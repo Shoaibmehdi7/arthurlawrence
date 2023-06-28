@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /?*
+Disallow: /*?
+Disallow: /?
+Disallow: /page/
+Disallow: /tag/
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-includes/
+Allow: /wp-includes/*.js
+Allow: /wp-includes/*.css
+Allow: /wp-content/*.js
+Allow: /wp-content/*.css
+Allow: /wp-content/*.woff2
+Allow: /wp-content/*.woff
+Allow: /wp-content/*.ttf
+
+
+Sitemap: https://www.arthurlawrence.net/blog/sitemap_index.xml
+Sitemap: https://www.arthurlawrence.net/sitemap.xml

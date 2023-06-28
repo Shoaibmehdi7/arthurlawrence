@@ -1,0 +1,108 @@
+body{
+    overflow-x: hidden;
+}
+
+.banner-arth{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: #242424;
+    background-image: url(/assets/images/new-assets/banner-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center center;
+    background-size: 30%;
+
+    h1{
+        color: #fff;
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+    .h4{
+        font-size: 2.5em;
+        color: #fff;
+        position: absolute;
+        bottom: 60px;
+        left: 0;
+        margin: 0px auto;
+        text-align: center;
+        width: 100%;
+        display: block;
+
+    }
+    .icon-down{
+        width: 17px;
+        height: 30px;
+        background: url('/assets/images/new-assets/arrow-down.png') no-repeat;
+        background-size: contain;
+        display: block;
+        position: absolute;
+        bottom: 10px;
+        left: 0;
+        margin: 0px auto;
+        text-align: center;
+        left: 50%;
+    }
+}
+
+.intro-perspective{
+    padding: 50px 0;
+    background-color: #fff;
+    h2{
+        font-size: 3.5em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #313131;
+        span{
+            display: block;
+            &:nth-child(1){
+                font-weight: 100;
+            }
+            &:nth-child(2){
+                font-weight: 700;
+            }
+        }
+    }
+    p{
+        text-align: center;
+        color: #797979;
+    }
+}
+
+.video-player{
+    position: relative;
+    overflow-x: hidden;
+    cursor: url('/assets/images/new-assets/play-cursor.png'), auto;	
+}
+
+.transformation{
+    height: 100vh;
+    width: 100vw;
+    padding: 50px 0;
+    background-color: #fff;
+    h2{
+        font-size: 3.5em;
+        text-transform: uppercase;
+        
+        color: #313131;
+        span{
+            display: block;
+            &:nth-child(1){
+                font-weight: 100;
+            }
+            &:nth-child(2){
+                font-weight: 700;
+            }
+        }
+    }
+    p{
+        
+        color: #797979;
+    }
+}

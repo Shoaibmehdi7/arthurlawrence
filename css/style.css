@@ -1,0 +1,496 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+ 
+::after, ::before {
+  box-sizing: border-box;
+}
+  
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0;#banner .bnr-cont
+  margin-bottom: 0;
+}
+    
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+/* basic css end */
+
+/* common css start */
+.h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #2E2E2E;
+}
+
+.h2 {
+  font-size: 35px;
+  font-weight: 500;
+  color: #2E2E2E;
+}
+
+.h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #2E2E2E;
+}
+
+.p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #2E2E2E;
+  line-height: 24px;
+}
+
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+/*// end of common css */
+
+/* main css start */
+
+/* ===== header section start======= */
+.header {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  z-index: 999;
+}
+
+.header .navbar-brand img {
+  vertical-align: unset;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: none;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  padding-right: .8rem;
+  padding-left: .8rem;
+}
+
+.navbar-collapse span i {
+  color: #fff;
+}
+
+#header.position-fixed {
+  background: #2E2E2E;
+  margin-top: 0;
+  top: 0;
+  box-shadow: 5px 0 5px rgba(0, 0, 0, 0.5);
+}
+/* =====// end of header section ======= */
+
+/* ====== banner section start ==== */
+#banner {
+  position: relative;
+}
+
+.innerpage{
+  background-color: white;
+  float: left;
+  margin-top: 0em !important;
+}
+#banner {
+  width: 101%;
+  height: 100vh;
+  background: url(../images/banner.jpg) no-repeat center top/cover;
+  z-index: 1;
+}
+
+#banner::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, .4)
+}
+
+#banner .bnr-cont {
+  width: 100%;
+  height: 100%;
+  display: grid;
+      padding-top: 19%;
+  /*place-items: center;*/
+  z-index: 2;
+}
+.innerpage .maintext {
+    font-weight: 800;
+    font-size: 28px !important;
+    line-height: 28px;
+    letter-spacing: 3px;
+}
+#banner .bnr-cont h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #2e2e2e !important;
+    width: 100%;
+    margin-bottom: 0;
+    line-height:1.1;
+}
+.bnr-cont .container * {
+    max-width: 500px;
+}
+.bnr-cont .container {
+    display: block;
+}
+#banner .bnr-cont p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+        letter-spacing: 1px;
+    line-height: 1.6em;
+}
+/* ====== end of banner section ==== */
+
+/* ======= capability section start ====== */
+#capability {
+  background: #F8F8F8;
+  float: left;
+  width: 100%;
+}
+
+#capability figcaption {
+  font-size: 16px;
+  font-weight: 600;
+  color: #CF3732;
+}
+/* ======= //end of capability section  ====== */
+
+
+
+
+/* ======= case-study section start ====== */
+#case-study .card-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #323232;
+  line-height: 29px;
+}
+
+#case-study .card-text{
+  color: #323232;
+  line-height: 22px;
+}
+
+#case-study .card-link{
+  font-size: 16px;
+  font-weight: 700;
+  color: #2e2e2e;
+  line-height: 36px;
+}
+
+#case-study .card,
+#case-study .card-img-top {
+  border-radius: 0;
+}
+/* ======= //end of case-study section  ====== */
+
+
+/* ======= Insights section start ====== */
+#insights {
+  background: #F8F8F8;
+}
+
+#insights .full-img-row {
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+}
+
+#insights .full-img {
+  overflow: hidden;
+  position: relative;
+}
+
+#insights .full-img img {
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+#insights .full-img:hover img {
+  transform: scale(1.2);
+  overflow: hidden;
+}
+
+#insights .full-img .img-txt {
+  position: absolute;
+  z-index: 1;
+  top: 60%;
+  left: 5%;
+}
+
+
+#insights .full-img .img-txt .h2,
+#insights .full-img .img-txt .p{
+  color: #fff;
+}
+
+#insights .full-img .img-txt span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+}
+
+#insights .full-txt {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center center;
+  padding: 0 2rem ;
+}
+
+.insights-bottom span,
+#insights .full-txt .img-txt span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #484848;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.insights-bottom .h2 {
+  font-weight: 400;
+}
+/* ======= //end of Insights section  ====== */
+
+
+
+/* ======= contact-form section start ====== */
+#contact-form .form-control {
+  border-radius: 1.25rem;
+}
+
+#contact-form textarea {
+  height: 150px;
+  resize: none;
+}
+/* ======= //end of contact-form section  ====== */
+
+ 
+
+/* ======= Media Highlights section start ====== */
+#media {
+  background: url(../images/03.jpg) no-repeat center center/cover;
+}
+
+#media .h1,
+#media .p {
+  color: #fff;
+}
+
+#media .card-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #323232;
+  line-height: 29px;
+}
+
+#media .card-text{
+  color: #323232;
+  line-height: 22px;
+}
+
+#media .card-link{
+  font-size: 16px;
+  font-weight: 700;
+  color: #2e2e2e;
+  line-height: 30px;
+}
+
+#media .card,
+#media .card-img-top {
+  border-radius: 0;
+}
+/* ======= //end of Media Highlights section  ====== */
+
+
+
+/* ======= subscribe section start ====== */
+#subscribe {
+  background: #2e2e2e;
+}
+
+#subscribe img {
+  vertical-align: text-top;
+}
+
+#subscribe .h3 {
+  font-weight: 400;
+  color: #fff;
+  margin: 15px 0 0 0;
+}
+
+#subscribe .btn,
+#subscribe .form-control {
+  border-radius: 1.25rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#subscribe .form-group {
+  margin: 15px 15px 0 0;
+}
+/* ======= //end of subscribe section  ====== */
+
+
+/* ======= join section start ====== */
+.join-txt {
+  padding: 100px 30px 0 200px;
+}
+
+#join .h2 {
+  font-weight: 700;
+  line-height: 45px;
+}
+
+#join .h2 span{
+  font-weight: 400;
+  line-height: 40px;
+}
+
+#join .btn {
+  cursor: pointer;
+}
+
+.join-img {
+  position: relative
+}
+
+.join-img .join-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 6%;
+  left: 7%;
+  display: grid;
+  /*place-items: center center;*/
+  opacity: 0;
+  transition: all 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+}
+
+.join-img:hover .join-hover {
+  opacity: 1;
+}
+/* ======= //end of join section  ====== */
+
+
+/* ======= footer section start ====== */
+#footer {
+  background: #2e2e2e;
+}
+
+#footer .f-logo {
+  vertical-align: top;
+}
+
+.f-link .p {
+  color: #fff;
+  line-height: 26px;
+  padding: 30px 0 40px 0;
+}
+
+
+.f-link .s-link img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#footer h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+#footer li a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 15px;
+  display: block;
+}
+ 
+#footer .award {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+ 
+#footer .award .award-img {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  color: #fff;
+  background: #AFAFAF;
+  display: grid;
+  place-items: center center;
+}
+
+.copyright .p {
+  color: #fff;
+  font-size: 14px;
+}
+/* ======= //end of footer section  ====== */
+
+/* back to top button start */
+.top-btn {
+  position: fixed;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  font-size: 1.75rem;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 999;
+  color: #fff;
+  border-radius: 5px;
+  background: #e23e38;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+
+.top-btn:hover {
+  background: #181818;
+  transition: all 0.2s ease-in-out;
+}
+/*back to top button ends */
+.no-gutter-vertical{
+  padding-left: 0!important;;
+  padding-right: 0 !important;;
+  margin-left: 0 !important;;
+  margin-right: 0 !important;
+}
+
+.img-txt h4{
+  color: #fff !important;
+}
